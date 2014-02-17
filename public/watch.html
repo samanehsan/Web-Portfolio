@@ -7,6 +7,7 @@
     <body>
         <h1> Welcome! </h1>
         <h3> Lose Yourself To Dance: </h3>
+
         <div class="content">
             <% if (id != undefined) {%>
             <iframe width="640" height="360" src="<%= id%>" frameborder="0" allowfullscreen></iframe>
@@ -14,6 +15,18 @@
             <iframe width="640" height="360" src="//www.youtube.com/embed/NF-kLy44Hls" frameborder="0" allowfullscreen></iframe>
             <% } %>
         </div>
+
+
+        <h3> You Only Live Once: </h3>
+
+         <div class="content">
+            <% if (id != undefined) {%>
+            <iframe width="640" height="360" src="<%= id%>" frameborder="0" allowfullscreen></iframe>
+            <% } else { %>
+            <iframe width="640" height="360" src="//www.youtube.com/embed/pT68FS3YbQ4?feature=player_detailpage" frameborder="0" allowfullscreen></iframe>
+            <% } %>
+        </div>
+
     </body>
 
     
