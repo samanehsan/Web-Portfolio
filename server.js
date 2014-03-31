@@ -10,7 +10,7 @@ var app = express();
 // e.g. css or client side js files
 app.use(express.static(path.normalize(__dirname) + '/public'))
 
-var urlstring = process.env.MONGOLAB_URI || 
+var uristring = process.env.MONGOLAB_URI || 
 "mongodb://heroku_app22300670:59hgg2hjinnu21dmkmj9rp1a12@ds035907.mongolab.com:35907/heroku_app22300670"
 
 
