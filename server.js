@@ -16,7 +16,7 @@ var uristring = process.env.MONGOLAB_URI ||
 
 // These 3 lines tell express that we are going to be rendering html files
 // held in the public directory which should be in the same directory as this file
-app.set('views', path.normalize(__dirname) + '/public');
+app.set('views', path.normalize(__dirname) + '/public/html');
 app.set('view engine', 'html');
 app.engine('html', require('ejs').renderFile);
 
