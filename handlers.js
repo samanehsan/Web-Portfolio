@@ -24,8 +24,8 @@ exports.pinterless = function(req, res) {
 		var output = "Pins: " + JSON.stringify(all_pins);
 		console.log(output); 
 
-		res.render("pinterless", {pins: all_pins}, function(err, html) {
-			res.send(html) 	
+		res.render('pinterless', {pins: all_pins}, function(err, html) {
+			res.send(html); 	
 		})
 	});
 }
