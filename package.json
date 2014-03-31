@@ -1,6 +1,6 @@
 {
-	"name": "Class4Tutorial",
-	"description": "Doing this in class",
+	"name": "MongoDB",
+	"description": "Adding MongoDB",
 	"version": "0.0.1",
 	"author": "Saman Ehsan",
 	"engines": {
@@ -9,7 +9,8 @@
 	},
 	"dependencies": {
 		"express": "latest", 
-		"ejs": "latest"
+		"ejs": "latest",
+		"mongoose": "latest"
 	}
 }
 
