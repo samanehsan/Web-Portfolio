@@ -14,7 +14,7 @@ exports.watch = function(req, res) {
 }
 
 exports.bootstrap = function(req, res) {
-	res.render('bootstrap101', function(err, html) {
+	res.render('home', function(err, html) {
 		res.send(html);
 	})
 }
