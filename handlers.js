@@ -17,6 +17,18 @@ exports.bootstrap = function(req, res) {
 	res.render('bootstrap101', function(err, html) {
 		res.send(html);
 	})
+	res.render('about', function(err, html) {
+		res.send(html);
+	})
+	res.render('biochemistry', function(err, html) {
+		res.send(html);
+	})
+	res.render('computerscience', function(err, html) {
+		res.send(html);
+	})
+	res.render('contact', function(err, html) {
+		res.send(html);
+	})
 }
 
 exports.pinterless = function(req, res) {
