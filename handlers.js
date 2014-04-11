@@ -19,25 +19,25 @@ exports.bootstrap = function(req, res) {
 	})
 }
 
-exports.bootstrap_about = function(req, res) {
+exports.about = function(req, res) {
 	res.render('about', function(err, html) {
 		res.send(html);
 	})
 }
 
-exports.bootstrap_biochemistry = function(req, res) {
+exports.biochemistry = function(req, res) {
 	res.render('biochemistry', function(err, html) {
 		res.send(html);
 	})
 }
 
-exports.bootstrap_cs = function(req, res) {
+exports.cs = function(req, res) {
 	res.render('computerscience', function(err, html) {
 		res.send(html);
 	})
 }
 
-exports.bootstrap_contact = function(req, res) {
+exports.contact = function(req, res) {
 	res.render('contact', function(err, html) {
 		res.send(html);
 	})
