@@ -1,0 +1,69 @@
+body {
+    color: #69D2E7;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Corben', Georgia, Times, serif;
+}
+p, div {
+    font-family: 'Nobile', Helvetica, Arial, sans-serif;
+}
+
+h1 {
+	font-size: 45px; 
+}
+
+#bg {
+	position: fixed; 
+  	top: -50%; 
+  	left: -50%; 
+  	width: 200%; 
+  	height: 200%;
+ }
+
+ #bg img {
+	  opacity:0.9;
+	  z-index:0;
+	  position: absolute; 
+	  top: 0; 
+	  left: 0; 
+	  right: 0; 
+	  bottom: 0; 
+	  margin: auto; 
+	  min-width: 50%;
+	  min-height: 50%;
+}
+
+.content {
+	z-index: 10;
+	position: relative;
+}
+
+.centertext{
+	margin-top: 100px; 
+	text-align: center; 
+	color: white;
+	position: relative; 
+}
+
+.about_container{
+	margin-top: 300px; 
+	margin-bottom: 100px; 
+	background-image: url("subtlenet2.png"); 
+	background-repeat:repeat;
+	height: 375px;  
+}
+
+.about_image{
+	margin-left: 50px; 
+	margin-top: 50px; 
+	float: left;
+}
+
+.about_text {
+	margin-top: 50px; 
+	margin-right: 75px;
+	float:right;
+    width: 40em 
+}
+

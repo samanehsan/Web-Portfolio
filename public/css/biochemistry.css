@@ -1,0 +1,94 @@
+body {
+    color: #69D2E7;
+}
+
+h1, h3, h4, h5, h6 {
+    font-family: 'Corben', Georgia, Times, serif;
+}
+p, div {
+    font-family: 'Nobile', Helvetica, Arial, sans-serif;
+}
+
+h2 {
+    font-family: 'Nobile', Helvetica, Arial, sans-serif;
+    font-size: 25px; 
+}
+
+
+#bg {
+	position: fixed; 
+  	top: -50%; 
+  	left: -50%; 
+  	width: 200%; 
+  	height: 200%;
+ }
+
+ #bg img {
+ 	  -webkit-filter: blur(5px); /* Chrome 19+, Safari 6+, Safari 6+ iOS */
+	  opacity:0.9;
+	  z-index:0;
+	  position: absolute; 
+	  top: 0; 
+	  left: 0; 
+	  right: 0; 
+	  bottom: 0; 
+	  margin: auto; 
+	  min-width: 50%;
+	  min-height: 50%;
+}
+
+.content {
+	z-index: 10;
+	position: relative;
+}
+
+.centertext{
+	margin-top: 100px; 
+	margin-right: 50px;
+	margin-left: 50px; 
+	text-align: center; 
+	color: white;
+	position: relative; 
+}
+
+.biochem_container{
+	margin-top: 150px; 
+	background-image: url("subtlenet2.png"); 
+	background-repeat:repeat;
+	opacity:0.9;
+	height: 500px
+}
+
+.biochem_image{
+	margin-left: 50px; 
+	float: left;
+}
+
+.biochem_text {
+	margin-top: 50px; 
+	margin-right: 75px;
+	float:right;
+    width: 40em 
+}
+
+.biochem_container_2{
+	margin-top: 250px; 
+	margin-bottom: 150px;
+	background-image: url("subtlenet2.png"); 
+	background-repeat:repeat;
+	opacity:0.9;
+	height: 500px
+
+}
+
+.biochem_image2{
+	margin-right: 50px;
+	float: right;
+}
+
+.biochem_text2 {
+	margin-top: 50px; 
+	margin-left: 75px;
+	float: left;
+    width: 40em 
+}

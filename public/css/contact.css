@@ -1,0 +1,53 @@
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Corben', Georgia, Times, serif;
+}
+p, div {
+    font-family: 'Nobile', Helvetica, Arial, sans-serif;
+}
+
+
+#bg {
+	position: fixed; 
+  	top: -50%; 
+  	left: -50%; 
+  	width: 200%; 
+  	height: 200%;
+ }
+
+ #bg img {
+ 	  -webkit-filter: blur(5px); /* Chrome 19+, Safari 6+, Safari 6+ iOS */
+	  opacity:0.9;
+	  z-index:0;
+	  position: absolute; 
+	  top: 0; 
+	  left: 0; 
+	  right: 0; 
+	  bottom: 0; 
+	  margin: auto; 
+	  min-width: 50%;
+	  min-height: 50%;
+}
+
+.content {
+	z-index: 10;
+	position: relative;
+}
+
+.contact_container{
+	margin-top: 150px; 
+	margin-left: 200px;
+	margin-right: 200px;
+	background-image: url("subtlenet2.png"); 
+	background-repeat:repeat;
+	opacity:0.75;
+	height: 300px; 
+
+}
+
+
+.centertext{
+	position: relative; 
+	text-align: center; 
+	margin-top: 50px;
+}
