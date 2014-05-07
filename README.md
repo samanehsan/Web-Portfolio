@@ -1,4 +1,4 @@
 HW4
 ===
 
-Deploying app to heroku 
+Personal web portfolio deployed to Heroku. 
